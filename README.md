@@ -14,7 +14,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10/11</b> (21H2)
+- Windows 11 for Desktop
+- Windows 10 for Virtual Machine</b> (22H2)
 
 <h2>List of Prerequisites</h2>
 
@@ -33,7 +34,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 </p>
 <p>
-Logged into Azure to start creating my enviornment for osTicket. Created a Resource Group called "osTicket" for where my Virtual Machine and my Virtual Network will go. 
+Logged into Azure to start creating my enviornment for osTicket. Created a Resource Group called "osTicket" for where the Virtual Machine and Virtual Network will be located.
 </p>
 <br />
 
@@ -43,14 +44,26 @@ Logged into Azure to start creating my enviornment for osTicket. Created a Resou
 
 </p>
 <p>
-After creating the resource group I needed to create a virtual network for my setup on the Virtual Machine. I called the network "ticket-vnet" and proceeded to put it in the resource group.
+After creating the resource group I needed to create a virtual network for my setup on the Virtual Machine. I called the network "ticket-vnet" and put it into the resource group.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1874" height="881" alt="image" src="https://github.com/user-attachments/assets/8de4c4a8-9a73-4284-bac0-17cbccdc6670" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Creating the a Virtual Machine called "ost-vm". Using the resource group made before (osTicket) and put it there. 
 </p>
 <br />
+
+<p>
+<img width="1865" height="877" alt="image" src="https://github.com/user-attachments/assets/26c6243c-1634-43bc-95da-ca60f81f1312" />
+</p>
+<p>
+For the Image/OS I used Windows 10 Enterprise, version 22H2 - x64 Gen2. For Size I used Standard_L4aos_v4 - 4 vcpus, 32 GiB memory (Note: I have done it before on 2vcpus and 16 GiB memory, but its slower and cheaper).
+> [!NOTE]
+> I have done it before on 2vcpus and 16 GiB memory, but its slower and cheaper.
+</p>
+<br />
+
+
