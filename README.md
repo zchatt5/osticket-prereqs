@@ -72,6 +72,7 @@ For the Image/OS I used Windows 10 Enterprise, version 22H2 - x64 Gen2. For Size
 </p>
 <p>
 For logging into the Virtual Machine you need a Username and Password. 
+    
     - Username: labuser
     - Password: Cyberlab123!
 
