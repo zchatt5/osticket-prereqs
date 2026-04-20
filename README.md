@@ -33,15 +33,17 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 </p>
 <p>
-Login into Azure to start creating my enviornment needed for my Virtual Machine. Created a Resource Group called "osTicket" for where my Virtual Machine and my Virtual Network will go. 
+Logged into Azure to start creating my enviornment for osTicket. Created a Resource Group called "osTicket" for where my Virtual Machine and my Virtual Network will go. 
 </p>
 <br />
 
 <p>
-<img width="1874" height="916" alt="image" src="https://github.com/user-attachments/assets/61d1e38d-afa8-4c65-80f2-38908c33873f" />
+
+<img width="1873" height="924" alt="image" src="https://github.com/user-attachments/assets/6e13ea6d-bf7f-48e1-82af-092d9ad8f3d9" />
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+After creating the resource group I needed to create a virtual network for my setup on the Virtual Machine. I called the network "ticket-vnet" and proceeded to put it in the resource group.
 </p>
 <br />
 
