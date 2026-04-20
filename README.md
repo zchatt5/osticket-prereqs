@@ -52,7 +52,7 @@ After creating the resource group I needed to create a virtual network for my se
 <img width="1874" height="881" alt="image" src="https://github.com/user-attachments/assets/8de4c4a8-9a73-4284-bac0-17cbccdc6670" />
 </p>
 <p>
-Creating the a Virtual Machine called "ost-vm". Using the resource group made before (osTicket) and put it there. 
+Creating the a Virtual Machine called "ost-vm". Using the resource group made before (osTicket) and put it there. I'm also using "West US 2" as my region because that is closest to me for quicker feedback, but can be done in a different Region. 
 </p>
 <br />
 
@@ -65,5 +65,19 @@ For the Image/OS I used Windows 10 Enterprise, version 22H2 - x64 Gen2. For Size
 > I have done it before on 2vcpus and 16 GiB memory, but its slower and cheaper.
 </p>
 <br />
+
+<p>
+<img width="1870" height="879" alt="image" src="https://github.com/user-attachments/assets/0da4fb5a-2c73-48d3-9af2-9259f71dd623" />
+</p>
+<p>
+For logging into the Virtual Machine you need a Username and Password. 
+    - Username: labuser
+    - Password: Cyberlab123!
+
+Since I'm using a Windows 10/11 OS I need to check the licensing at the bottom. The usernames and passwords I use are for this project only. Its never good to store your passwords in plain text.
+</p>
+<br />
+
+
 
 
