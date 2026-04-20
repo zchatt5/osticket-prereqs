@@ -61,6 +61,7 @@ Creating the a Virtual Machine called "ost-vm". Using the resource group made be
 </p>
 <p>
 For the Image/OS I used Windows 10 Enterprise, version 22H2 - x64 Gen2. For Size I used Standard_L4aos_v4 - 4 vcpus, 32 GiB memory (Note: I have done it before on 2vcpus and 16 GiB memory, but its slower and cheaper).
+    
 > [!NOTE]
 > I have done it before on 2vcpus and 16 GiB memory, but its slower and cheaper.
 </p>
