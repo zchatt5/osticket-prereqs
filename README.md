@@ -28,10 +28,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 ### Step 1: Create and Configure the Azure Virtual Machine
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img width="1837" height="846" alt="image" src="https://github.com/user-attachments/assets/d4526df4-3ff5-48fc-b2f1-aa3bc52d23d3" />
+
 </p>
 <p>
-I logged into Azure to start creating my enviornment needed for my Virtual Machine. Created a Resource Group called 
+Login into Azure to start creating my enviornment needed for my Virtual Machine. Created a Resource Group called "osTicket" for where my Virtual Machine and my Virtual Network will go. 
 </p>
 <br />
 
