@@ -80,6 +80,38 @@ Since I'm using a Windows 10/11 OS I need to check the licensing at the bottom. 
 </p>
 <br />
 
+<p>
+<img width="1870" height="882" alt="image" src="https://github.com/user-attachments/assets/004193b7-3560-4c90-b98d-9bc900493a07" />
+</p>
+<p>
+Went to the Networking tab and verified that my Virtual Network is selected to "ticket-vnet". Then I went to the Review + Create tab to finish my Virtual Machine. 
+</p>
+<br />
+
+<p>
+
+</p>
+<p>
+
+</p>
+<br />
+
+<p>
+
+</p>
+<p>
+
+</p>
+<br />
+
+<p>
+<img width="1874" height="881" alt="image" src="https://github.com/user-attachments/assets/8de4c4a8-9a73-4284-bac0-17cbccdc6670" />
+</p>
+<p>
+Creating the a Virtual Machine called "ost-vm". Using the resource group made before (osTicket) and put it there. I'm also using "West US 2" as my region because that is closest to me for quicker feedback, but can be done in a different Region. 
+</p>
+<br />
+
 
 
 
