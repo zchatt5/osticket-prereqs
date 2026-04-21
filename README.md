@@ -191,7 +191,7 @@ In the setup window select typical and proceed to install. Check the Launch the 
 <img width="494" height="376" alt="image" src="https://github.com/user-attachments/assets/73a43f16-d006-4dcc-8e67-36bfce3237c0" />
 </p>
 <p>
-After clicking next once you want to select Standard Configuration. Click next. Left the next page as is and click next. 
+After clicking next once you want to select Standard Configuration. Click next. Leave the next page alone and click next. 
 </p>
 <br />
 
@@ -209,6 +209,43 @@ Click next then execute.
 
     - Note: In real world environments, strong credentials should always be used.
     
+</p>
+<br />
+
+### Step 5: Configuring Web Server
+<p>
+<img width="1421" height="750" alt="image" src="https://github.com/user-attachments/assets/96db59ea-99ee-4159-a911-7984a762032c" />
+</p>
+<p>
+Go to the windows search bar and search for "IIS" (Internet Information Services) and run it as admin.
+</p>
+<br />
+
+<p>
+<img width="1420" height="751" alt="image" src="https://github.com/user-attachments/assets/a2bc3b20-5058-4e99-a1a7-14db99efe4f1" />
+<img width="1423" height="744" alt="image" src="https://github.com/user-attachments/assets/98a8a8e9-0390-4f42-8747-546a92189ce9" />
+</p>
+<p>
+Open PHP Manager. Register new PHP version then browse to the PHP folder in the C drive and open php-cgi (C:\PHP\php-cgi.exe). This will make the web server aware of PHP on the computer and telling it where it is.
+</p>
+<br />
+
+<p>
+<img width="1423" height="749" alt="image" src="https://github.com/user-attachments/assets/5aad967f-e66a-430e-b201-7a2f36509377" />
+<img width="206" height="691" alt="image" src="https://github.com/user-attachments/assets/ba47d2a3-c078-4dae-911f-f0b85199f928" />
+</p>
+<p>
+In IIS go back to the home page and restart the IIS service to apply the changes and ensure the web server properly recognized the newly registered PHP runtime
+</p>
+<br />
+
+### Step 6: Installing osTicket
+
+<p>
+
+</p>
+<p>
+
 </p>
 <br />
 
