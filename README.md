@@ -87,10 +87,17 @@ Went to the Networking tab and verified that my Virtual Network is selected to "
 <img width="976" height="566" alt="image" src="https://github.com/user-attachments/assets/b86befaf-0299-4309-8bf6-23841941cb09" />
 </p>
 <p>
-I'm going to the windows search bar to open up "Remote Desktop Connection". Copy + Paste the public IP address of the virtual machine to connect to the Virtual Machine. I will enter the username and password I used during the setup process. 
+Go to the windows search bar to open up "Remote Desktop Connection". Copy + Paste the public IP address of the virtual machine to connect. Enter the username and password used during the setup process. 
 </p>
 <br />
 
+<p>
+<img width="362" height="156" alt="image" src="https://github.com/user-attachments/assets/3beb0b89-e320-4d23-9b42-3e11a04ccbb6" />
+</p>
+<p>
+Go to the windows search bar to open up "Remote Desktop Connection". Copy + Paste the public IP address of the virtual machine to connect. Enter the username and password used during the setup process. 
+</p>
+<br />
 
 
 
