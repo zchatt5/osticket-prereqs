@@ -118,7 +118,7 @@ To Enable go to the start menu and open the control panel. Then click on program
 <img width="450" height="425" alt="image" src="https://github.com/user-attachments/assets/ec4a08f1-4ca3-4131-ba63-7549ac2e27d7" />
 </p>
 <p>
-Enable Internet Information Services. Expand Internet Information Services -> World Wide Web Services -> Application Development Features -> Enable CGI.
+Enable Internet Information Services. Go to Internet Information Services -> World Wide Web Services -> Application Development Features -> Enable CGI.
 </p>
 <br />
 
