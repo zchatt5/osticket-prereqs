@@ -52,7 +52,7 @@ After creating the resource group I needed to create a virtual network for my se
 <img width="1874" height="881" alt="image" src="https://github.com/user-attachments/assets/8de4c4a8-9a73-4284-bac0-17cbccdc6670" />
 </p>
 <p>
-Creating the a Virtual Machine called "ost-vm". Using the resource group made before (osTicket) and put it there. I'm also using "West US 2" as my region because that is closest to me for quicker feedback, but can be done in a different Region. 
+Creating a Virtual Machine called "ost-vm". Using the resource group made before (osTicket) and put it there. I'm also using "West US 2" as my region because that is closest to me for quicker feedback, but can be done in a different Region. 
 </p>
 <br />
 
@@ -81,29 +81,13 @@ Since I'm using a Windows 10/11 OS I need to check the licensing at the bottom. 
 <p>
 Went to the Networking tab and verified that my Virtual Network is selected to "ticket-vnet". Then I went to the Review + Create tab to finish my Virtual Machine. 
 </p>
-<br />
 
+### Step 2: Preparing the Virtual Machine
 <p>
-
+<img width="976" height="566" alt="image" src="https://github.com/user-attachments/assets/b86befaf-0299-4309-8bf6-23841941cb09" />
 </p>
 <p>
-
-</p>
-<br />
-
-<p>
-
-</p>
-<p>
-
-</p>
-<br />
-
-<p>
-<img width="1874" height="881" alt="image" src="https://github.com/user-attachments/assets/8de4c4a8-9a73-4284-bac0-17cbccdc6670" />
-</p>
-<p>
-Creating the a Virtual Machine called "ost-vm". Using the resource group made before (osTicket) and put it there. I'm also using "West US 2" as my region because that is closest to me for quicker feedback, but can be done in a different Region. 
+I'm going to the windows search bar to open up "Remote Desktop Connection". Copy + Paste the public IP address of the virtual machine to connect to the Virtual Machine. I will enter the username and password I used during the setup process. 
 </p>
 <br />
 
