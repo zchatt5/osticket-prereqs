@@ -82,7 +82,7 @@ Since I'm using a Windows 10/11 OS I need to check the licensing at the bottom. 
 Went to the Networking tab and verified that my Virtual Network is selected to "ticket-vnet". Then I went to the Review + Create tab to finish my Virtual Machine. 
 </p>
 
-### Step 2: Preparing the Virtual Machine
+### Step 2: Getting osTicket Files and Dependicies
 <p>
 <img width="976" height="566" alt="image" src="https://github.com/user-attachments/assets/b86befaf-0299-4309-8bf6-23841941cb09" />
 </p>
@@ -97,6 +97,19 @@ Go to the windows search bar to open up "Remote Desktop Connection". Copy + Past
 </p>
 <p>
 Inside the VM download the required osTicket Installation Files and saved them locally to the desktop. Extracted the contents of the file named "osTicket-Installation-Files". 
+</p>
+<br />
+
+### Step 3: Install and Enable IIS with CGI
+
+<p>
+<img width="1118" height="628" alt="image" src="https://github.com/user-attachments/assets/83f7eded-fa32-4f2f-bfff-8f4b1aea776b" />
+<img width="1121" height="626" alt="image" src="https://github.com/user-attachments/assets/3d157a89-a727-4b91-9638-9e41be789ca3" />
+<img width="1123" height="630" alt="image" src="https://github.com/user-attachments/assets/fc195a79-7c5f-447a-87a3-9bcd81fa0f86" />
+
+</p>
+<p>
+To Enable go to the start menu and open the control panel. Then click on programs -> Programs and Features -> Turn Windows features on or off. 
 </p>
 <br />
 
