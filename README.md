@@ -159,3 +159,71 @@ Enable Internet Information Services. Go to Internet Information Services -> Wor
 From the "osTicket-Installation-Files" unzip "php-7.3.8-nts-Win32-VC15-x86" into the PHP folder (C:\PHP).
 </p>
 <br />
+
+<p>
+<img width="1129" height="638" alt="image" src="https://github.com/user-attachments/assets/ac349ea4-b49d-440a-af1d-95571b3ba9f1" />
+</p>
+<p>
+ From the "osTicket-Installation-Files" folder install "VC_redist.x86". This will satisfy runtime dependencies necessary for PHP to function correctly within the IIS environment.
+</p>
+<br />
+
+<p>
+<img width="1118" height="629" alt="image" src="https://github.com/user-attachments/assets/656874fd-266b-4072-bcb8-502b6df9f735" />
+</p>
+<p>
+ From the "osTicket-Installation-Files" folder install "mysql.5.5.62-win32". This is a database that osTicket will store all of our data in (User accounts, Ticketing Information, etc.)
+</p>
+<br />
+
+<p>
+<img width="488" height="386" alt="image" src="https://github.com/user-attachments/assets/800b2b4b-e625-4e08-9985-12c56e567e62" />
+<img width="492" height="381" alt="image" src="https://github.com/user-attachments/assets/d183eb28-bbef-4966-bc29-429abd31ac6b" />
+
+</p>
+<p>
+In the setup window select typical and proceed to install. Check the Launch the MySQL Instance Configuration Wizard at the bottom.
+</p>
+<br />
+
+<p>
+<img width="494" height="375" alt="image" src="https://github.com/user-attachments/assets/ce513ac7-c289-4ace-848f-5469789b29dc" />
+<img width="494" height="376" alt="image" src="https://github.com/user-attachments/assets/73a43f16-d006-4dcc-8e67-36bfce3237c0" />
+</p>
+<p>
+After clicking next once you want to select Standard Configuration. Click next. Left the next page as is and click next. 
+</p>
+<br />
+
+<p>
+<img width="496" height="377" alt="image" src="https://github.com/user-attachments/assets/ca6161bc-50cc-4837-b1f2-e5f30b19b275" />
+<img width="495" height="382" alt="image" src="https://github.com/user-attachments/assets/5f54e4c2-7d95-4fbf-83b8-97342c37a795" />
+</p>
+<p>
+Configure the database admin credentials using:
+    
+    - New root password: root
+    - Confirm: root
+
+Click next then execute.
+
+    - Note: In real world environments, strong credentials should always be used.
+    
+</p>
+<br />
+
+<p>
+
+</p>
+<p>
+
+</p>
+<br />
+
+<p>
+
+</p>
+<p>
+
+</p>
+<br />
