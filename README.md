@@ -100,18 +100,27 @@ Inside the VM download the required osTicket Installation Files and saved them l
 </p>
 <br />
 
-### Step 3: Install and Enable IIS with CGI
+### Step 3: Install and Enable IIS with CGI. (Web Server)
 
 <p>
 <img width="1118" height="628" alt="image" src="https://github.com/user-attachments/assets/83f7eded-fa32-4f2f-bfff-8f4b1aea776b" />
 <img width="1121" height="626" alt="image" src="https://github.com/user-attachments/assets/3d157a89-a727-4b91-9638-9e41be789ca3" />
-<img width="1123" height="630" alt="image" src="https://github.com/user-attachments/assets/fc195a79-7c5f-447a-87a3-9bcd81fa0f86" />
+<img width="412" height="369" alt="image" src="https://github.com/user-attachments/assets/d0b1b74c-6126-47ae-be85-c3a02d3a791e" />
 
 </p>
 <p>
-To Enable go to the start menu and open the control panel. Then click on programs -> Programs and Features -> Turn Windows features on or off. 
+To Enable go to the start menu and open the control panel. Then click on programs -> Programs and Features -> Turn Windows features on or off.
 </p>
 <br />
+
+<p>
+<img width="1123" height="630" alt="image" src="https://github.com/user-attachments/assets/fc195a79-7c5f-447a-87a3-9bcd81fa0f86" />
+</p>
+<p>
+I click on 
+</p>
+<br />
+
 
 
 
