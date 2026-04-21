@@ -95,7 +95,7 @@ Go to the windows search bar to open up "Remote Desktop Connection". Copy + Past
 <img width="362" height="156" alt="image" src="https://github.com/user-attachments/assets/3beb0b89-e320-4d23-9b42-3e11a04ccbb6" />
 </p>
 <p>
-Go to the windows search bar to open up "Remote Desktop Connection". Copy + Paste the public IP address of the virtual machine to connect. Enter the username and password used during the setup process. 
+Inside the VM download the required osTicket Installation Files and saved them locally to the desktop. Extracted the contents of the file named "osTicket-Installation-Files". 
 </p>
 <br />
 
