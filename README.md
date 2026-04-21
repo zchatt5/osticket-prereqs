@@ -288,9 +288,79 @@ Assign permissions to ost-config.php by going into properties and disabling inhe
 <br />
 
 <p>
-
+<img width="816" height="910" alt="image" src="https://github.com/user-attachments/assets/3895c376-543a-4418-8fe1-e5f989d4e3a6" />
 </p>
 <p>
-
+Continue setting up osTicket in the browser (Continue). Filled out System Settings, Admin User, and Database Settings. For the Admin User username and password:
+    
+    - Username: adminuser
+    - Password: Password1
 </p>
 <br />
+
+<p>
+<img width="1122" height="629" alt="image" src="https://github.com/user-attachments/assets/d656b7f4-08cf-424b-8fb9-1c72f5d6068c" />
+<img width="778" height="606" alt="image" src="https://github.com/user-attachments/assets/48fb1211-2947-4495-b3fa-4abc30387ba6" />
+</p>
+<p>
+Just need to create a dedicated database named osTicket to support the application backend. From the "osTicket-Installation-Files" folder and install HeidiSQL_12.3.0.6589_Setup. Heidi allows access to the database and to configure it. Didn't change any settings and check Launch HeidiSQL.
+</p>
+<br />
+
+<p>
+<img width="683" height="479" alt="image" src="https://github.com/user-attachments/assets/2e88f075-1774-4c62-adc2-f14724a0862d" />
+</p>
+<p>
+Click New and enter the User and Password from the setup of the SQL Server then click open to have a connection to the database.
+</p>
+<br />
+
+<p>
+<img width="931" height="590" alt="image" src="https://github.com/user-attachments/assets/44b476c7-2cbb-459a-a831-16abe1c27cd6" />
+</p>
+<p>
+Went to the top left and right click to Create new -> Database and name it "osTicket". The installation of osTicket will make use of this database and put whatever information/data in there.
+</p>
+<br />
+
+<p>
+<img width="816" height="433" alt="image" src="https://github.com/user-attachments/assets/eed3b75b-f94f-486d-9afc-808fe4164b15" />
+</p>
+<p>
+Back in the browser with osTicket in Database Settings enter:
+
+    - MySQL Database: osTicket
+    - MySQL Username: root
+    - MySQL Password: root
+
+Click Install!
+</p>
+
+<br />
+
+<p>
+<img width="914" height="722" alt="image" src="https://github.com/user-attachments/assets/f54c081f-7999-4621-ae8d-80fdf7216539" />
+<img width="932" height="592" alt="image" src="https://github.com/user-attachments/assets/cde7c9bc-a964-422b-8aa8-860dc46b080a" />
+</p>
+<p>
+osTicket is now installed! In HeidiSQL in the osticket database there are a tables already created and to store all of the stuff.
+</p>
+<br />
+
+### Step 7: Login
+<p>
+<img width="898" height="918" alt="image" src="https://github.com/user-attachments/assets/a4e1f409-2b66-4ab9-9b6a-765d4d88c0e4" />
+<img width="899" height="564" alt="image" src="https://github.com/user-attachments/assets/595d7dba-a1ef-41cb-8467-0559c14502d8" />
+</p>
+<p>
+http://localhost/osTicket/scp/login.php to login to help desk.
+http://localhost/osTicket/ for end users to send tickets.
+</p>
+<br />
+
+### End of Project
+<p>
+Hopefully after finishing all these steps there are no errors and everything deployed properly. This demonstrates the configuration of web servers (IIS), PHP, MySQL database integration, security adjustments to make a proper help desk using osTicket. Help desk is now ready to go and enjoy!
+</p>
+<br />
+
