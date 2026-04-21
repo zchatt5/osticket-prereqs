@@ -129,12 +129,27 @@ Enable Internet Information Services. Go to Internet Information Services -> Wor
 
 ### Step 4: Installing Required Components for osTicket
 <p>
-<img width="1118" height="631" alt="image" src="https://github.com/user-attachments/assets/af47db6d-8fd6-449f-8db7-dad8f5642db0" />
+<img width="1118" height="631" alt="image" src="https://github.com/user-attachments/assets/e8cd99ea-25a3-465e-9a14-242d9bf6c4ff" />
 </p>
 <p>
- 
+ From the "osTicket-Installation-Files" folder install "PHPManagerForIIS_V1.5.0".
 </p>
 <br />
 
+<p>
+<img width="1122" height="631" alt="image" src="https://github.com/user-attachments/assets/60fc0578-5637-46e3-b147-1d5e04733690" />
+</p>
+<p>
+ From the "osTicket-Installation-Files" folder install "rewrite_amd64_en-US".
+</p>
+<br />
+
+<p>
+<img width="1122" height="634" alt="image" src="https://github.com/user-attachments/assets/063dba2c-6614-4ca6-924b-575019a98f26" />
+</p>
+<p>
+ Open File Exploer and open your C-Drive (This PC -> Windows C:) to create a new folder called PHP. 
+</p>
+<br />
 
 
