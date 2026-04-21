@@ -235,25 +235,55 @@ Open PHP Manager. Register new PHP version then browse to the PHP folder in the 
 <img width="206" height="691" alt="image" src="https://github.com/user-attachments/assets/ba47d2a3-c078-4dae-911f-f0b85199f928" />
 </p>
 <p>
-In IIS go back to the home page and restart the IIS service to apply the changes and ensure the web server properly recognized the newly registered PHP runtime
+In IIS go back to the home page and restart the IIS service to apply the changes and ensure the web server properly recognized the newly registered PHP runtime.
 </p>
 <br />
 
 ### Step 6: Installing osTicket
 
 <p>
-
+<img width="1121" height="627" alt="image" src="https://github.com/user-attachments/assets/4260737f-c347-4e8a-af90-ada1e2fafa5d" />
+<img width="1124" height="820" alt="image" src="https://github.com/user-attachments/assets/9b2e4420-6065-4f2c-a101-139741648f5c" />
 </p>
 <p>
-
+Extract "osTicket-v1.15.8.zip" from the osTicket-Installation-Files. Open the extracted folder and copied the upload folder to wwwroot (C:\inetpub\wwwroot). Upload was renamed to osTicket to align with the intended site structure.
 </p>
 <br />
 
 <p>
-
+<img width="1421" height="747" alt="image" src="https://github.com/user-attachments/assets/9c6ec5b9-768d-4994-a269-4cf28db4605d" />
+<img width="916" height="924" alt="image" src="https://github.com/user-attachments/assets/9d2f3028-0b58-4e5c-9dda-a010a42cc9c4" />
 </p>
 <p>
+Reload IIS. In IIS navigate to Sites -> Default Web Site -> osTicket and click on Browse:80(http). This will open osTicket site in your browser and verifies that everything is working properly.
+</p>
+<br />
 
+<p>
+<img width="1419" height="744" alt="image" src="https://github.com/user-attachments/assets/f5381da5-89d5-4803-9fc2-f7b675961504" />
+<img width="1419" height="749" alt="image" src="https://github.com/user-attachments/assets/577a07a7-a809-41ad-9ab5-d741248419f1" />
+<img width="497" height="255" alt="image" src="https://github.com/user-attachments/assets/55aa2009-7c7b-424c-b30a-fe15c94b0a3c" />
+</p>
+<p>
+Back in IIS go to Sites -> Default Web Site -> osTicket and click into PHP Manager. Go to enable or disable an extension at the bottom of the window. Enable the required PHP extensions php_imap.dll, php_intl.dll, and php_opcache.dll through PHP Manager to ensure full application compatibility and functionality. Refresh the page to verify it worked. 
+</p>
+<br />
+
+<p>
+<img width="1125" height="632" alt="image" src="https://github.com/user-attachments/assets/366cdbf4-a289-496d-bdfb-bd825fe137ad" />
+</p>
+<p>
+Rename the sample configuration file from: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php to C:\inetpub\wwwroot\osTicket\include\ost-config.php.
+</p>
+<br />
+
+<p>
+<img width="915" height="595" alt="image" src="https://github.com/user-attachments/assets/87d72678-f655-4d52-91e9-b996c1ad69b1" />
+<img width="912" height="589" alt="image" src="https://github.com/user-attachments/assets/a5550abf-68b8-4cf1-993c-f43dbb1da51c" />
+<img width="766" height="517" alt="image" src="https://github.com/user-attachments/assets/c99ed92d-2b82-4b20-b56a-2e4e6dfb7aee" />
+</p>
+<p>
+Assign permissions to ost-config.php by going into properties and disabling inherited permissions and manually adding the appropriate access: Everyone -> Full Control to allow the application to have access and change the file.
 </p>
 <br />
 
