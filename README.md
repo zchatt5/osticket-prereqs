@@ -109,7 +109,7 @@ Inside the VM download the required osTicket Installation Files and saved them l
 
 </p>
 <p>
-To Enable go to the start menu and open the control panel. Then click on programs -> Programs and Features -> Turn Windows features on or off.
+Go to the start menu and open the control panel. Then click on programs -> Programs and Features -> Turn Windows features on or off.
 </p>
 <br />
 
