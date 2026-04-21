@@ -127,6 +127,14 @@ Enable Internet Information Services. Go to Internet Information Services -> Wor
 </p>
 <br />
 
+### Step 4: Installing Required Components for osTicket
+<p>
+<img width="1118" height="631" alt="image" src="https://github.com/user-attachments/assets/af47db6d-8fd6-449f-8db7-dad8f5642db0" />
+</p>
+<p>
+ 
+</p>
+<br />
 
 
 
