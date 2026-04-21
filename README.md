@@ -119,6 +119,7 @@ Go to the start menu and open the control panel. Then click on programs -> Progr
 </p>
 <p>
 Enable Internet Information Services. Go to Internet Information Services -> World Wide Web Services -> Application Development Features -> Enable CGI.
+    - Note: You can go to a browser and enter the loopback IP address 127.0.0.1 to verify that the web server setup worked.
 </p>
 <br />
 
