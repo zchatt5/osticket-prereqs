@@ -118,7 +118,7 @@ Go to the start menu and open the control panel. Then click on programs -> Progr
 <img width="450" height="425" alt="image" src="https://github.com/user-attachments/assets/ec4a08f1-4ca3-4131-ba63-7549ac2e27d7" />
 </p>
 <p>
-Enable Internet Information Services. Go to Internet Information Services -> World Wide Web Services -> Application Development Features -> Enable CGI.
+Enable Internet Information Services. Go to Internet Information Services -> World Wide Web Services -> Application Development Features -> Enable CGI. This will support PHP processing and prepare the server environment for osTicket deployment.
 
     - Note: You can go to a browser and enter the loopback IP address 127.0.0.1 to verify that the web server setup worked.
 
@@ -152,4 +152,10 @@ Enable Internet Information Services. Go to Internet Information Services -> Wor
 </p>
 <br />
 
-
+<p>
+<img width="1033" height="737" alt="image" src="https://github.com/user-attachments/assets/7c630b1e-c9a0-49d6-9688-48c31660e832" />
+</p>
+<p>
+From the "osTicket-Installation-Files" unzip "php-7.3.8-nts-Win32-VC15-x86" into the PHP folder (C:\PHP).
+</p>
+<br />
