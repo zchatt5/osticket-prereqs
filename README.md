@@ -11,6 +11,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Remote Desktop
 - Internet Information Services (IIS)
 - osTicket
+- MySQL
+- Heidi
+- PHP
 
 <h2>Operating Systems Used </h2>
 
@@ -22,7 +25,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Azure Subscription
 - Azure Virtual Machine
     - OS: Windows 10
-    - vCPUs: 4
+    - vCPUs: 2
 - Remote Desktop Connection
   
 <h2>Installation Steps</h2>
