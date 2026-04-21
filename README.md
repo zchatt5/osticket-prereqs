@@ -57,15 +57,10 @@ Creating the a Virtual Machine called "ost-vm". Using the resource group made be
 <br />
 
 <p>
-<img width="1865" height="877" alt="image" src="https://github.com/user-attachments/assets/26c6243c-1634-43bc-95da-ca60f81f1312" />
+<img width="1142" height="542" alt="image" src="https://github.com/user-attachments/assets/e9d5b76a-9a96-4e71-9143-459e593b1dd8" />
 </p>
 <p>
-For the Image/OS I used Windows 10 Enterprise, version 22H2 - x64 Gen2. For Size I used Standard_L4aos_v4 - 4 vcpus, 32 GiB memory (Note: I have done it before on 2vcpus and 16 GiB memory, but its slower and cheaper).
-    
-> [!NOTE]
-> I have done it before on 2vcpus and 16 GiB memory, but its slower and cheaper.
-</p>
-<br />
+For the Image/OS I used Windows 10 Enterprise, version 22H2 - x64 Gen2. For Size I used Standard L2s v4 (2 vcpus, 16 GiB memory).
 
 <p>
 <img width="1870" height="879" alt="image" src="https://github.com/user-attachments/assets/0da4fb5a-2c73-48d3-9af2-9259f71dd623" />
