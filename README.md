@@ -93,6 +93,7 @@ Go to the windows search bar to open up "Remote Desktop Connection". Copy + Past
 
 <p>
 <img width="362" height="156" alt="image" src="https://github.com/user-attachments/assets/3beb0b89-e320-4d23-9b42-3e11a04ccbb6" />
+<img width="135" height="221" alt="image" src="https://github.com/user-attachments/assets/bae53f78-9405-4375-b3c3-8e0fec4d0a32" />
 </p>
 <p>
 Inside the VM download the required osTicket Installation Files and saved them locally to the desktop. Extracted the contents of the file named "osTicket-Installation-Files". 
