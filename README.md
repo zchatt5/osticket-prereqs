@@ -363,7 +363,7 @@ http://localhost/osTicket/ for end users to send tickets.
 
 ### End of Project
 <p>
-Hopefully after finishing all these steps there are no errors and everything deployed properly. This demonstrates the configuration of web servers (IIS), PHP, MySQL database integration, security adjustments to make a proper help desk using osTicket. Help desk is now ready to go and enjoy!
+Hopefully after finishing all these steps there are no errors and everything deployed properly. This demonstrates the configuration of web servers (IIS), PHP, MySQL database integration, security adjustments to make a proper help desk using osTicket. Help desk is now ready to go!
 </p>
 <br />
 
